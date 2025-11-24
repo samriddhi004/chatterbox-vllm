@@ -1,0 +1,23 @@
+{
+  "model_load_time": 14.184698581695557,
+  "time_to_first_audio": 125.15623617172241,
+  "total_inference_time": 125.15623831748962,
+  "total_time": 159.23164057731628,
+  "warmup_time": 12.402239561080933,
+  "real_time_factor": 0.08710035236303316,
+  "audio_seconds_per_second": 11.48100981075269,
+  "chunks_per_second": 0.9987516537761922,
+  "peak_gpu_memory_mb": 2071.08642578125,
+  "peak_cpu_percent": 90.0,
+  "peak_ram_mb": 2739.75390625,
+  "avg_gpu_memory_mb": 1307.654463731374,
+  "avg_cpu_percent": 14.599602649006624,
+  "total_audio_duration_seconds": 1436.92,
+  "num_chunks": 125,
+  "total_characters": 15989,
+  "audio_samples": 34486080,
+  "sample_rate": 24000,
+  "has_clipping": true,
+  "max_amplitude": 0.9900000095367432,
+  "rms_level": 0.14207346737384796
+}
