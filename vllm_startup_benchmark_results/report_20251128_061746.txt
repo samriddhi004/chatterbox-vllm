@@ -1,0 +1,114 @@
+======================================================================
+CHATTERBOX-VLLM TTS COLD + WARM STARTUP BENCHMARK
+======================================================================
+
+Timestamp: 20251128_061746
+Max Batch Size: 15
+Max Model Length: 1200
+
+
+COLD STARTS
+======================================================================
+Number of runs: 5
+
+
+Model Load Time
+----------------------------------------------------------------------
+  mean: 42.254s
+  median: 42.133s
+  std: 0.673s
+  min: 41.696s
+  max: 43.546s
+  p75: 42.146s
+  p95: 43.266s
+
+Warmup Time
+----------------------------------------------------------------------
+  mean: 3.758s
+  median: 3.560s
+  std: 0.405s
+  min: 3.521s
+  max: 4.566s
+  p75: 3.595s
+  p95: 4.372s
+
+Total Startup Time
+----------------------------------------------------------------------
+  mean: 46.012s
+  median: 45.696s
+  std: 1.069s
+  min: 45.256s
+  max: 48.112s
+  p75: 45.728s
+  p95: 47.635s
+
+Recommended Thresholds
+----------------------------------------------------------------------
+
+Model Load Time
+  expected_max: 63.2s
+  warning: 42.1s
+  critical: 43.3s
+
+Warmup Time
+  expected_max: 5.3s
+  warning: 3.6s
+  critical: 4.4s
+
+Total Startup Time
+  expected_max: 68.5s
+  warning: 45.7s
+  critical: 47.6s
+
+WARM STARTS
+======================================================================
+Number of runs: 5
+
+
+Model Load Time
+----------------------------------------------------------------------
+  mean: 13.629s
+  median: 13.581s
+  std: 0.126s
+  min: 13.532s
+  max: 13.873s
+  p75: 13.617s
+  p95: 13.822s
+
+Warmup Time
+----------------------------------------------------------------------
+  mean: 3.420s
+  median: 3.449s
+  std: 0.055s
+  min: 3.329s
+  max: 3.479s
+  p75: 3.458s
+  p95: 3.475s
+
+Total Startup Time
+----------------------------------------------------------------------
+  mean: 17.049s
+  median: 16.998s
+  std: 0.089s
+  min: 16.966s
+  max: 17.202s
+  p75: 17.096s
+  p95: 17.181s
+
+Recommended Thresholds
+----------------------------------------------------------------------
+
+Model Load Time
+  expected_max: 20.4s
+  warning: 13.6s
+  critical: 13.8s
+
+Warmup Time
+  expected_max: 5.2s
+  warning: 3.5s
+  critical: 3.5s
+
+Total Startup Time
+  expected_max: 25.5s
+  warning: 17.1s
+  critical: 17.2s

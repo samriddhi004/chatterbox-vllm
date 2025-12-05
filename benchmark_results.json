@@ -1,0 +1,2067 @@
+{
+  "benchmark_config": {
+    "server_url": "http://localhost:8000",
+    "num_requests": 100,
+    "tts_params": {
+      "exaggeration": 0.5,
+      "min_p": 0.1,
+      "top_p": 0.8
+    },
+    "timestamp": "2025-12-05 16:31:04"
+  },
+  "summary": {
+    "total_benchmark_time_seconds": 300.830854177475,
+    "successful_requests": 18,
+    "failed_requests": 82,
+    "exception_requests": 0,
+    "success_rate_percent": 18.0
+  },
+  "latency_metrics": {
+    "ttfa": {
+      "mean": 167.628833744261,
+      "median": 180.12693738937378,
+      "min": 11.980208158493042,
+      "max": 300.2660439014435,
+      "p50": 180.12693738937378,
+      "p95": 290.3724620938301,
+      "p99": 298.2873275399208,
+      "stddev": 95.77474790626405
+    },
+    "e2e_latency": {
+      "mean": 167.6288556125429,
+      "median": 180.12695598602295,
+      "min": 11.980239391326904,
+      "max": 300.2660632133484,
+      "p50": 180.12695598602295,
+      "p95": 290.3724864721298,
+      "p99": 298.28734786510466,
+      "stddev": 95.77474432346364
+    }
+  },
+  "throughput_metrics": {
+    "rtfx": {
+      "mean": 0.05036779265601482,
+      "median": 0.027842724111622308,
+      "min": 0.015143486733722704,
+      "max": 0.20867904494227996
+    },
+    "requests_per_second": 0.05983428810590323,
+    "total_audio_generated_seconds": 85.340625,
+    "audio_throughput_rtfx": 0.2836830857437693
+  },
+  "resource_utilization": {
+    "gpu_utilization": {
+      "mean": 0.24756893699368376,
+      "max": 5.694085550854727,
+      "min": 0.0
+    },
+    "kv_cache_utilization": {
+      "mean": 0.14854136219621025,
+      "max": 3.4164513305128357,
+      "min": 0.0
+    },
+    "total_preemptions": 0,
+    "peak_requests_running": 0,
+    "peak_requests_waiting": 0
+  },
+  "individual_requests": [
+    {
+      "request_id": 37,
+      "text": "And no one corrects him \u2013 because there is nothing to correct",
+      "text_length": 61,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.6081018,
+      "end_time": 1764951964.5883412,
+      "ttfa": 11.980208158493042,
+      "e2e_latency": 11.980239391326904,
+      "success": true,
+      "error": null,
+      "audio_duration": 1.4188125,
+      "rtfx": 0.11842939474374356
+    },
+    {
+      "request_id": 38,
+      "text": "It is a revealing reading! Although Gandalf and Sauron never met face-to-face, never appear to conte...",
+      "text_length": 327,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.6082156,
+      "end_time": 1764951976.6011014,
+      "ttfa": 23.99286150932312,
+      "e2e_latency": 23.99288582801819,
+      "success": true,
+      "error": null,
+      "audio_duration": 5.0068125,
+      "rtfx": 0.20867904494227996
+    },
+    {
+      "request_id": 88,
+      "text": "We do, by the by, get told about one other \u2018spell\u2019 invocation delivered in a language other than Wes...",
+      "text_length": 358,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.5912275,
+      "end_time": 1764952000.627691,
+      "ttfa": 48.03641486167908,
+      "e2e_latency": 48.036463499069214,
+      "success": true,
+      "error": null,
+      "audio_duration": 5.5888125,
+      "rtfx": 0.11634521138526971
+    },
+    {
+      "request_id": 17,
+      "text": "Nor will it do to simply dismiss Treebeard as speaking empty words: for his slow pace, he is ancient...",
+      "text_length": 298,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.59136,
+      "end_time": 1764952024.6422207,
+      "ttfa": 72.05084156990051,
+      "e2e_latency": 72.05086064338684,
+      "success": true,
+      "error": null,
+      "audio_duration": 4.7308125,
+      "rtfx": 0.06565934754638099
+    },
+    {
+      "request_id": 25,
+      "text": "After all, we frequently read the writings of past societies looking to understand how they viewed t...",
+      "text_length": 473,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.5996277,
+      "end_time": 1764952036.656282,
+      "ttfa": 84.05663681030273,
+      "e2e_latency": 84.05665421485901,
+      "success": true,
+      "error": null,
+      "audio_duration": 5.1268125,
+      "rtfx": 0.060992345554169276
+    },
+    {
+      "request_id": 89,
+      "text": "Gandalf goes on to recite those precise words shortly thereafter: Ash nazg durbatuluk, ash nazg gimb...",
+      "text_length": 261,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.5914783,
+      "end_time": 1764952048.6642058,
+      "ttfa": 96.07270908355713,
+      "e2e_latency": 96.07272744178772,
+      "success": true,
+      "error": null,
+      "audio_duration": 4.9588125,
+      "rtfx": 0.05161519436413042
+    },
+    {
+      "request_id": 64,
+      "text": "But it is unclear to me if the Three rings are similarly tainted: on the one hand, they are free of ...",
+      "text_length": 347,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.6239572,
+      "end_time": 1764952061.4516091,
+      "ttfa": 108.8276309967041,
+      "e2e_latency": 108.82765197753906,
+      "success": true,
+      "error": null,
+      "audio_duration": 5.2168125,
+      "rtfx": 0.04793646104830689
+    },
+    {
+      "request_id": 66,
+      "text": "\u2019 My own suspicion is that in their design, drawn from the Seven and the Nine, there is some part of...",
+      "text_length": 289,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.6242206,
+      "end_time": 1764952108.70491,
+      "ttfa": 156.08067059516907,
+      "e2e_latency": 156.08068943023682,
+      "success": true,
+      "error": null,
+      "audio_duration": 4.5568125,
+      "rtfx": 0.02919523559662871
+    },
+    {
+      "request_id": 68,
+      "text": "In any case, we\u2019re interested here in spiritual power, the sort of magic Ainur like Gandalf, Sauron,...",
+      "text_length": 294,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.6261632,
+      "end_time": 1764952132.7471633,
+      "ttfa": 180.12097668647766,
+      "e2e_latency": 180.1210000514984,
+      "success": true,
+      "error": null,
+      "audio_duration": 4.8808125,
+      "rtfx": 0.027097409511409144
+    },
+    {
+      "request_id": 49,
+      "text": "By contrast, the Ainur \u2013 that is, the greater Valar and lesser Maiar (of which Sauron and the wizard...",
+      "text_length": 219,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.6143534,
+      "end_time": 1764952132.7472653,
+      "ttfa": 180.1328980922699,
+      "e2e_latency": 180.13291192054749,
+      "success": true,
+      "error": null,
+      "audio_duration": 4.2508125,
+      "rtfx": 0.02359820009946287
+    },
+    {
+      "request_id": 70,
+      "text": "What makes it tricky to assess as a \u2018magic system\u2019 is instead that spiritual power works at a very p...",
+      "text_length": 278,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.6264498,
+      "end_time": 1764952156.7738814,
+      "ttfa": 204.1474130153656,
+      "e2e_latency": 204.14743161201477,
+      "success": true,
+      "error": null,
+      "audio_duration": 4.3288125,
+      "rtfx": 0.02120434465336293
+    },
+    {
+      "request_id": 5,
+      "text": "While Tolkien\u2019s magic system is often described as a \u2018soft\u2019 system (or even not a system at all), as...",
+      "text_length": 326,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.6265972,
+      "end_time": 1764952180.8012261,
+      "ttfa": 228.17460799217224,
+      "e2e_latency": 228.1746289730072,
+      "success": true,
+      "error": null,
+      "audio_duration": 5.3008125,
+      "rtfx": 0.023231384329881304
+    },
+    {
+      "request_id": 52,
+      "text": "Like all \u2018magic\u2019 in Tolkien, such power is an expression of the primacy of the Unseen over the Seen ...",
+      "text_length": 408,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.6161232,
+      "end_time": 1764952192.81492,
+      "ttfa": 240.19877076148987,
+      "e2e_latency": 240.198796749115,
+      "success": true,
+      "error": null,
+      "audio_duration": 6.8668125,
+      "rtfx": 0.028588038711835472
+    },
+    {
+      "request_id": 76,
+      "text": "Gandalf twice conjures fire with an invocation, although this is an interesting example as it is the...",
+      "text_length": 298,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.5790854,
+      "end_time": 1764952194.642262,
+      "ttfa": 242.06315636634827,
+      "e2e_latency": 242.0631766319275,
+      "success": true,
+      "error": null,
+      "audio_duration": 4.8988125,
+      "rtfx": 0.02023774358480372
+    },
+    {
+      "request_id": 54,
+      "text": "It is not that Gandalf makes himself seem bigger or older or wiser (nor is it that Saruman makes him...",
+      "text_length": 294,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.6163805,
+      "end_time": 1764952228.8512335,
+      "ttfa": 276.2348349094391,
+      "e2e_latency": 276.2348530292511,
+      "success": true,
+      "error": null,
+      "audio_duration": 4.5508125,
+      "rtfx": 0.01647443271583874
+    },
+    {
+      "request_id": 21,
+      "text": "Rings of Power likewise seems, in its depiction of Gandalf, committed to magic that is very open, fl...",
+      "text_length": 261,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.595504,
+      "end_time": 1764952228.8513093,
+      "ttfa": 276.25579619407654,
+      "e2e_latency": 276.25580525398254,
+      "success": true,
+      "error": null,
+      "audio_duration": 4.3588125,
+      "rtfx": 0.01577817521696103
+    },
+    {
+      "request_id": 0,
+      "text": "From the blog, A Collection of Unmitigated Pedantry:\nCollections: How Gandalf Proved Mightiest: Spir...",
+      "text_length": 140,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.6059856,
+      "end_time": 1764952241.2325468,
+      "ttfa": 288.6265358924866,
+      "e2e_latency": 288.62656116485596,
+      "success": true,
+      "error": null,
+      "audio_duration": 4.3708125,
+      "rtfx": 0.015143486733722704
+    },
+    {
+      "request_id": 33,
+      "text": "\u201d But measured against whom?\n\nAt first, one might think that Treebeard is merely commenting on Ganda...",
+      "text_length": 338,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.606117,
+      "end_time": 1764952252.8721802,
+      "ttfa": 300.2660439014435,
+      "e2e_latency": 300.2660632133484,
+      "success": true,
+      "error": null,
+      "audio_duration": 4.9288125,
+      "rtfx": 0.016414817070079364
+    },
+    {
+      "request_id": 79,
+      "text": "The other very clear example is Gandalf\u2019s breaking of Saruman\u2019s staff",
+      "text_length": 69,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.5811327,
+      "end_time": 1764952253.396479,
+      "ttfa": 300.8153462409973,
+      "e2e_latency": 300.8153462409973,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 72,
+      "text": "Naturally, the fellow we see work the most of this sort of \u2018magic\u2019 is Gandalf and so upon Gandalf we...",
+      "text_length": 175,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.5765145,
+      "end_time": 1764952253.396557,
+      "ttfa": 300.82004261016846,
+      "e2e_latency": 300.82004261016846,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 9,
+      "text": "\u201d",
+      "text_length": 1,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.5832832,
+      "end_time": 1764952253.3966064,
+      "ttfa": 300.81332325935364,
+      "e2e_latency": 300.81332325935364,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 98,
+      "text": "The dark fire will not avail you, flame of Ud\u00fbn",
+      "text_length": 47,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.5999897,
+      "end_time": 1764952253.3966863,
+      "ttfa": 300.79669666290283,
+      "e2e_latency": 300.79669666290283,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 36,
+      "text": "No, I would argue that what Treebeard is saying is that Gandalf has, at the end of his many labours,...",
+      "text_length": 261,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.6078975,
+      "end_time": 1764952253.3967316,
+      "ttfa": 300.7888340950012,
+      "e2e_latency": 300.7888340950012,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 69,
+      "text": "\u2019\n\nWhile Tolkien is sometimes slotted into \u2018soft\u2019 magic systems or even no system at all, I want to ...",
+      "text_length": 166,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.626344,
+      "end_time": 1764952253.396774,
+      "ttfa": 300.7704300880432,
+      "e2e_latency": 300.7704300880432,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 67,
+      "text": "As an aside, it is striking that in the Lord of the Rings, the one instance we see that we might rea...",
+      "text_length": 271,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.6243563,
+      "end_time": 1764952253.3969715,
+      "ttfa": 300.7726151943207,
+      "e2e_latency": 300.7726151943207,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 65,
+      "text": "Yet they do not seem to corrupt their wearers on their own, which might suggest they are close \u2013 or ...",
+      "text_length": 138,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.6241157,
+      "end_time": 1764952253.3970225,
+      "ttfa": 300.7729067802429,
+      "e2e_latency": 300.7729067802429,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 63,
+      "text": "The One Ring is very clearly an extension and focusing of Sauron\u2019s own spiritual power and perhaps t...",
+      "text_length": 345,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.6224298,
+      "end_time": 1764952253.3970714,
+      "ttfa": 300.77464151382446,
+      "e2e_latency": 300.77464151382446,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 62,
+      "text": "As an aside, I think the power of the Rings introduces some complexity into this question",
+      "text_length": 89,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.6222978,
+      "end_time": 1764952253.3971126,
+      "ttfa": 300.77481484413147,
+      "e2e_latency": 300.77481484413147,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 61,
+      "text": "What these evil magic users have learned, in essence, is how to manipulate elements of this \u2018Morgoth...",
+      "text_length": 225,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.6221867,
+      "end_time": 1764952253.397151,
+      "ttfa": 300.77496433258057,
+      "e2e_latency": 300.77496433258057,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 60,
+      "text": "Such \u2018dark magic\u2019 is actually spiritual power, one step removed: what these mortal magic users comma...",
+      "text_length": 199,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.6220543,
+      "end_time": 1764952253.3971915,
+      "ttfa": 300.7751371860504,
+      "e2e_latency": 300.7751371860504,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 59,
+      "text": "The Mouth of Sauron \u201clearned great sorcery,\u201d for instance, and the Witch King can make his sword ign...",
+      "text_length": 129,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.6205177,
+      "end_time": 1764952253.3972309,
+      "ttfa": 300.7767131328583,
+      "e2e_latency": 300.7767131328583,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 3,
+      "text": "Rings of Power likewise seems, in its depiction of Gandalf, committed to magic that is very open, fl...",
+      "text_length": 261,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.6189992,
+      "end_time": 1764952253.3973696,
+      "ttfa": 300.7783703804016,
+      "e2e_latency": 300.7783703804016,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 58,
+      "text": "This spiritual power also has a subset, which we might term \u2018dark magic:\u2019 certain non-Ainur are able...",
+      "text_length": 172,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.6188774,
+      "end_time": 1764952253.3974175,
+      "ttfa": 300.77854013442993,
+      "e2e_latency": 300.77854013442993,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 4,
+      "text": "So I want to lay out my reading of how all of this functions",
+      "text_length": 60,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.6187046,
+      "end_time": 1764952253.397457,
+      "ttfa": 300.77875232696533,
+      "e2e_latency": 300.77875232696533,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 57,
+      "text": "And he was older, far older",
+      "text_length": 27,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.6185753,
+      "end_time": 1764952253.397494,
+      "ttfa": 300.77891874313354,
+      "e2e_latency": 300.77891874313354,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 2,
+      "text": "This is a topic that I think even the best adaptations have generally failed to grasp, representing ...",
+      "text_length": 206,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.618442,
+      "end_time": 1764952253.3975327,
+      "ttfa": 300.7790906429291,
+      "e2e_latency": 300.7790906429291,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 56,
+      "text": "Yet by a sense other than sight, Pippin perceived that Gandalf had the greater power and the deeper ...",
+      "text_length": 137,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.618314,
+      "end_time": 1764952253.3975732,
+      "ttfa": 300.7792592048645,
+      "e2e_latency": 300.7792592048645,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 1,
+      "text": "April 25, 2025\n\nThis week, I want to keep unloading my Tolkien-related thoughts, turning from last w...",
+      "text_length": 299,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.6182005,
+      "end_time": 1764952253.3976126,
+      "ttfa": 300.7794120311737,
+      "e2e_latency": 300.7794120311737,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 55,
+      "text": "Denethor looked indeed much more like a great wizard than Gandalf did, more kingly, beautiful, and p...",
+      "text_length": 118,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.6165023,
+      "end_time": 1764952253.397671,
+      "ttfa": 300.7811686992645,
+      "e2e_latency": 300.7811686992645,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 53,
+      "text": "As an aside, note those moments where Gandalf\u2019s manner suddenly changes and a character glimpses, ho...",
+      "text_length": 168,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.616268,
+      "end_time": 1764952253.3977141,
+      "ttfa": 300.7814462184906,
+      "e2e_latency": 300.7814462184906,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 51,
+      "text": "This is the sort of \u2018magic\u2019 \u2013 spiritual power \u2013 that we\u2019ll be focused on here",
+      "text_length": 77,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.614593,
+      "end_time": 1764952253.3978598,
+      "ttfa": 300.7832667827606,
+      "e2e_latency": 300.7832667827606,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 50,
+      "text": "Having been involved in the Song of Eru and the very creation of Arda, these beings are able to a de...",
+      "text_length": 138,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.614468,
+      "end_time": 1764952253.3979084,
+      "ttfa": 300.7834403514862,
+      "e2e_latency": 300.7834403514862,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 48,
+      "text": "We are setting this sort of \u2018craft-magic\u2019 aside for now, except to note that it is unlike the other ...",
+      "text_length": 184,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.6141703,
+      "end_time": 1764952253.3979485,
+      "ttfa": 300.7837781906128,
+      "e2e_latency": 300.7837781906128,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 47,
+      "text": "These are not magic per se \u2013 they do not really involve a supernatural power \u2013 but rather understood...",
+      "text_length": 245,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.6124663,
+      "end_time": 1764952253.3979886,
+      "ttfa": 300.7855222225189,
+      "e2e_latency": 300.7855222225189,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 46,
+      "text": "Bread that is wondrously nourishing, doors that open on their own at a word, swords that glow blue i...",
+      "text_length": 132,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.6123397,
+      "end_time": 1764952253.3980267,
+      "ttfa": 300.7856869697571,
+      "e2e_latency": 300.7856869697571,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 45,
+      "text": "We can begin with craft-magic: Elves and Dwarves sometimes produce objects or effects which are marv...",
+      "text_length": 165,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.6122315,
+      "end_time": 1764952253.3980672,
+      "ttfa": 300.78583574295044,
+      "e2e_latency": 300.78583574295044,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 44,
+      "text": "I am going to term them as craft-magic, spiritual power and then a subset of spiritual power, dark m...",
+      "text_length": 104,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.6120965,
+      "end_time": 1764952253.398106,
+      "ttfa": 300.7860095500946,
+      "e2e_latency": 300.7860095500946,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 43,
+      "text": "Before we dive in, I think we need to distinguish here between three different kinds of power in Tol...",
+      "text_length": 193,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.6105034,
+      "end_time": 1764952253.398248,
+      "ttfa": 300.7877445220947,
+      "e2e_latency": 300.7877445220947,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 42,
+      "text": "social) for updates when posts go live and my general musings; I have largely shifted over to Bluesk...",
+      "text_length": 235,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.6103756,
+      "end_time": 1764952253.3982968,
+      "ttfa": 300.78792119026184,
+      "e2e_latency": 300.78792119026184,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 41,
+      "text": "social) and (less frequently) Mastodon (@bretdevereaux@historians",
+      "text_length": 65,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.6102636,
+      "end_time": 1764952253.398336,
+      "ttfa": 300.788072347641,
+      "e2e_latency": 300.788072347641,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 40,
+      "text": "bsky",
+      "text_length": 4,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.610121,
+      "end_time": 1764952253.3983746,
+      "ttfa": 300.7882535457611,
+      "e2e_latency": 300.7882535457611,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 39,
+      "text": "But how can Gandalf have proved mightier than Sauron, a being he never meets in person?\n\nBut first, ...",
+      "text_length": 337,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.6083415,
+      "end_time": 1764952253.3985512,
+      "ttfa": 300.79020977020264,
+      "e2e_latency": 300.79020977020264,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 35,
+      "text": "Nor will it do to simply dismiss Treebeard as speaking empty words: for his slow pace, he is ancient...",
+      "text_length": 298,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.606363,
+      "end_time": 1764952253.398599,
+      "ttfa": 300.79223585128784,
+      "e2e_latency": 300.79223585128784,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 34,
+      "text": "And in any case, that would merely make Gandalf mightier",
+      "text_length": 56,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.6062348,
+      "end_time": 1764952253.3986378,
+      "ttfa": 300.7924029827118,
+      "e2e_latency": 300.7924029827118,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 32,
+      "text": "Treebeard is observing that the measuring has now been taken and Gandalf has \u201cproved mightiest",
+      "text_length": 94,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.6058517,
+      "end_time": 1764952253.398696,
+      "ttfa": 300.7928442955017,
+      "e2e_latency": 300.7928442955017,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 31,
+      "text": "But my time is coming\u201d",
+      "text_length": 22,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.604302,
+      "end_time": 1764952253.3987358,
+      "ttfa": 300.7944338321686,
+      "e2e_latency": 300.7944338321686,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 30,
+      "text": "Against some I have not yet been measured",
+      "text_length": 41,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.6041794,
+      "end_time": 1764952253.3987744,
+      "ttfa": 300.79459500312805,
+      "e2e_latency": 300.79459500312805,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 29,
+      "text": "Some are greater than I am",
+      "text_length": 26,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.6040673,
+      "end_time": 1764952253.3988132,
+      "ttfa": 300.7947459220886,
+      "e2e_latency": 300.7947459220886,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 28,
+      "text": "It is a striking statement and it picks up something Gandalf said at the Council of Elrond, \u201cThere a...",
+      "text_length": 149,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.6039312,
+      "end_time": 1764952253.398852,
+      "ttfa": 300.7949209213257,
+      "e2e_latency": 300.7949209213257,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 99,
+      "text": "Go back to the Shadow! You cannot pass",
+      "text_length": 38,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.602398,
+      "end_time": 1764952253.398988,
+      "ttfa": 300.796590089798,
+      "e2e_latency": 300.796590089798,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 14,
+      "text": "Treebeard is observing that the measuring has now been taken and Gandalf has \u201cproved mightiest",
+      "text_length": 94,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.587414,
+      "end_time": 1764952253.3990352,
+      "ttfa": 300.81162118911743,
+      "e2e_latency": 300.81162118911743,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 26,
+      "text": "Our starting point is something Treebeard says to the Gandalf as the Fellowship passed Orthanc on th...",
+      "text_length": 202,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.5998623,
+      "end_time": 1764952253.3990734,
+      "ttfa": 300.79921102523804,
+      "e2e_latency": 300.79921102523804,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 97,
+      "text": "You cannot pass",
+      "text_length": 15,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.599754,
+      "end_time": 1764952253.399112,
+      "ttfa": 300.79935789108276,
+      "e2e_latency": 300.79935789108276,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 96,
+      "text": "\u2018I am a servant of the Secret Fire, wielder of the flame of Anor",
+      "text_length": 64,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.5994997,
+      "end_time": 1764952253.3991482,
+      "ttfa": 300.7996485233307,
+      "e2e_latency": 300.7996485233307,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 24,
+      "text": "Once again I should note we are not entirely departing from the craft of the historian here",
+      "text_length": 91,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.5993593,
+      "end_time": 1764952253.3991854,
+      "ttfa": 300.7998261451721,
+      "e2e_latency": 300.7998261451721,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 95,
+      "text": "The orcs stood still, and a dead silence fell",
+      "text_length": 45,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.5975509,
+      "end_time": 1764952253.3992226,
+      "ttfa": 300.80167174339294,
+      "e2e_latency": 300.80167174339294,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 23,
+      "text": "While Tolkien\u2019s magic system is often described as a \u2018soft\u2019 system (or even not a system at all), as...",
+      "text_length": 326,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.5959978,
+      "end_time": 1764952253.3992605,
+      "ttfa": 300.8032627105713,
+      "e2e_latency": 300.8032627105713,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 94,
+      "text": "Of course this comes embedded in a larger speech:\n\n    \u2018You cannot pass,\u2019 he said",
+      "text_length": 81,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.5958729,
+      "end_time": 1764952253.399298,
+      "ttfa": 300.80342507362366,
+      "e2e_latency": 300.80342507362366,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 22,
+      "text": "So I want to lay out my reading of how all of this functions",
+      "text_length": 60,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.5957508,
+      "end_time": 1764952253.3993356,
+      "ttfa": 300.80358481407166,
+      "e2e_latency": 300.80358481407166,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 93,
+      "text": "Gandalf\u2019s spell to block the Balrog and eventually collapse the bridge is quite simple, \u201cYou cannot ...",
+      "text_length": 127,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.59562,
+      "end_time": 1764952253.399373,
+      "ttfa": 300.8037531375885,
+      "e2e_latency": 300.8037531375885,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 92,
+      "text": "Our two other invocations are delivered in \u2018English\u2019 and take a form I want to note: they are plain ...",
+      "text_length": 171,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.5953293,
+      "end_time": 1764952253.3994114,
+      "ttfa": 300.80408215522766,
+      "e2e_latency": 300.80408215522766,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 20,
+      "text": "This is a topic that I think even the best adaptations have generally failed to grasp, representing ...",
+      "text_length": 206,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.5951915,
+      "end_time": 1764952253.3994486,
+      "ttfa": 300.8042571544647,
+      "e2e_latency": 300.8042571544647,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 91,
+      "text": "That suggests to me that the Rings might require invocation in a specific language, the language of ...",
+      "text_length": 136,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.593405,
+      "end_time": 1764952253.399487,
+      "ttfa": 300.80608201026917,
+      "e2e_latency": 300.80608201026917,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 19,
+      "text": "April 25, 2025\n\nThis week, I want to keep unloading my Tolkien-related thoughts, turning from last w...",
+      "text_length": 299,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.5918715,
+      "end_time": 1764952253.3995245,
+      "ttfa": 300.80765295028687,
+      "e2e_latency": 300.80765295028687,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 90,
+      "text": "\u201d And invoking the words produces an immediate supernatural result locally (the sky darkens), as if ...",
+      "text_length": 179,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.5917366,
+      "end_time": 1764952253.3995628,
+      "ttfa": 300.8078262805939,
+      "e2e_latency": 300.8078262805939,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 18,
+      "text": "From the blog, A Collection of Unmitigated Pedantry:\nCollections: How Gandalf Proved Mightiest: Spir...",
+      "text_length": 140,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.5915864,
+      "end_time": 1764952253.3996017,
+      "ttfa": 300.8080153465271,
+      "e2e_latency": 300.8080153465271,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 80,
+      "text": "If we put these events together, we might begin to understand how Tolkien expresses spiritual power ...",
+      "text_length": 171,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.5830803,
+      "end_time": 1764952253.3996396,
+      "ttfa": 300.8165593147278,
+      "e2e_latency": 300.8165593147278,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 16,
+      "text": "And in any case, that would merely make Gandalf mightier",
+      "text_length": 56,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.5910938,
+      "end_time": 1764952253.3996964,
+      "ttfa": 300.8086025714874,
+      "e2e_latency": 300.8086025714874,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 87,
+      "text": "This is, to my recollection, the only time Gandalf invokes like this in Sindarin and I suspect the r...",
+      "text_length": 222,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.5892985,
+      "end_time": 1764952253.3997335,
+      "ttfa": 300.8104350566864,
+      "e2e_latency": 300.8104350566864,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 15,
+      "text": "\u201d But measured against whom?\n\nAt first, one might think that Treebeard is merely commenting on Ganda...",
+      "text_length": 338,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.5877404,
+      "end_time": 1764952253.3997712,
+      "ttfa": 300.8120307922363,
+      "e2e_latency": 300.8120307922363,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 86,
+      "text": "Later, against the wolves, Gandalf uses a longer, more specific version of the same \u2018spell:\u2019 \u201cNaur a...",
+      "text_length": 212,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.5875432,
+      "end_time": 1764952253.399808,
+      "ttfa": 300.8122646808624,
+      "e2e_latency": 300.8122646808624,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 85,
+      "text": "On Caradhras, Gandalf ignites wet wood under heavy wind with something called a \u2018word of command\u2019 \u2013 ...",
+      "text_length": 203,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.5872982,
+      "end_time": 1764952253.3998473,
+      "ttfa": 300.8125491142273,
+      "e2e_latency": 300.8125491142273,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 13,
+      "text": "But my time is coming\u201d",
+      "text_length": 22,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.5871885,
+      "end_time": 1764952253.3998845,
+      "ttfa": 300.812695980072,
+      "e2e_latency": 300.812695980072,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 84,
+      "text": "Whereas \u2018magic words\u2019 are common in a lot of fantasy fiction, only one \u2018spell\u2019 is spoken not in \u2018pla...",
+      "text_length": 135,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.5870433,
+      "end_time": 1764952253.3999221,
+      "ttfa": 300.8128788471222,
+      "e2e_latency": 300.8128788471222,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 12,
+      "text": "Against some I have not yet been measured",
+      "text_length": 41,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.5869071,
+      "end_time": 1764952253.3999596,
+      "ttfa": 300.8130524158478,
+      "e2e_latency": 300.8130524158478,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 83,
+      "text": "But the form of that invocation too is interesting",
+      "text_length": 50,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.5853293,
+      "end_time": 1764952253.399996,
+      "ttfa": 300.8146667480469,
+      "e2e_latency": 300.8146667480469,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 11,
+      "text": "Some are greater than I am",
+      "text_length": 26,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.5837924,
+      "end_time": 1764952253.4000332,
+      "ttfa": 300.8162407875061,
+      "e2e_latency": 300.8162407875061,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 82,
+      "text": "Speaking seems to be, if not required, a normal part of expressing supernatural power, particularly ...",
+      "text_length": 176,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.5836644,
+      "end_time": 1764952253.4000707,
+      "ttfa": 300.81640625,
+      "e2e_latency": 300.81640625,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 10,
+      "text": "It is a striking statement and it picks up something Gandalf said at the Council of Elrond, \u201cThere a...",
+      "text_length": 149,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.5835075,
+      "end_time": 1764952253.4001076,
+      "ttfa": 300.8166000843048,
+      "e2e_latency": 300.8166000843048,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 81,
+      "text": "The first thing to note is that in every case there is a clear verbal invocation",
+      "text_length": 80,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.5833921,
+      "end_time": 1764952253.400145,
+      "ttfa": 300.816752910614,
+      "e2e_latency": 300.816752910614,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 75,
+      "text": "I can think of a few core examples of this sort of \u2018obvious magic\u2019 that we see first-hand in the tex...",
+      "text_length": 101,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.577012,
+      "end_time": 1764952253.4001842,
+      "ttfa": 300.82317209243774,
+      "e2e_latency": 300.82317209243774,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 8,
+      "text": "Our starting point is something Treebeard says to the Gandalf as the Fellowship passed Orthanc on th...",
+      "text_length": 202,
+      "audio_prompt": "audio-sample-01.mp3",
+      "start_time": 1764951952.5829422,
+      "end_time": 1764952253.4002213,
+      "ttfa": 300.8172791004181,
+      "e2e_latency": 300.8172791004181,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 27,
+      "text": "\u201d",
+      "text_length": 1,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.600856,
+      "end_time": 1764952253.4003685,
+      "ttfa": 300.799512386322,
+      "e2e_latency": 300.799512386322,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 7,
+      "text": "After all, we frequently read the writings of past societies looking to understand how they viewed t...",
+      "text_length": 473,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.579577,
+      "end_time": 1764952253.4004169,
+      "ttfa": 300.820839881897,
+      "e2e_latency": 300.820839881897,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 78,
+      "text": "He also describes opposing Durin\u2019s Bane \u2013 though he doesn\u2019t know it yet \u2013 with a \u201cshutting spell\u201d th...",
+      "text_length": 229,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.5794544,
+      "end_time": 1764952253.4004552,
+      "ttfa": 300.82100081443787,
+      "e2e_latency": 300.82100081443787,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 6,
+      "text": "Once again I should note we are not entirely departing from the craft of the historian here",
+      "text_length": 91,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.5793293,
+      "end_time": 1764952253.4004993,
+      "ttfa": 300.821170091629,
+      "e2e_latency": 300.821170091629,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 77,
+      "text": "Gandalf\u2019s confrontation with the Balrog is likewise a clear instance of supernatural power, a confro...",
+      "text_length": 173,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.5792222,
+      "end_time": 1764952253.4005368,
+      "ttfa": 300.82131457328796,
+      "e2e_latency": 300.82131457328796,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 71,
+      "text": "But in most cases \u2013 arguably all of the, \u2013 this spiritual power does follow a system, if we are atte...",
+      "text_length": 125,
+      "audio_prompt": "audio-sample-peter.mp3",
+      "start_time": 1764951952.5744126,
+      "end_time": 1764952253.4005764,
+      "ttfa": 300.8261637687683,
+      "e2e_latency": 300.8261637687683,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 74,
+      "text": "That will help us set the \u2018ground rules\u2019 by which we assess some of the less obvious instances",
+      "text_length": 94,
+      "audio_prompt": "audio-sample-03.mp3",
+      "start_time": 1764951952.5768645,
+      "end_time": 1764952253.4006164,
+      "ttfa": 300.8237519264221,
+      "e2e_latency": 300.8237519264221,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    },
+    {
+      "request_id": 73,
+      "text": "We want to start by grounding our understanding in moments that are obviously expressions of spiritu...",
+      "text_length": 141,
+      "audio_prompt": "audio-sample-02.mp3",
+      "start_time": 1764951952.5767312,
+      "end_time": 1764952253.4006793,
+      "ttfa": 300.8239481449127,
+      "e2e_latency": 300.8239481449127,
+      "success": false,
+      "error": "Request timeout",
+      "audio_duration": 0.0,
+      "rtfx": 0.0
+    }
+  ],
+  "system_metrics_timeline": [
+    {
+      "timestamp": 1764951952.5743241,
+      "gpu_utilization": 5.694085550854727,
+      "kv_cache_utilization": 3.4164513305128357,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952000.6273937,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952012.6373703,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952024.6419437,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952036.6559083,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952048.6639495,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952060.6732838,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952072.6803646,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952084.690874,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952096.6999953,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952108.7046065,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952120.7331915,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952132.7466934,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952144.760796,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952156.7734876,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952168.7871308,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952180.8005812,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952192.8145237,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952204.8258512,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952216.8398037,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952228.8508708,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952240.8570132,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    },
+    {
+      "timestamp": 1764952252.8717325,
+      "gpu_utilization": 0.0,
+      "kv_cache_utilization": 0.0,
+      "total_preemptions": 0,
+      "requests_running": 0,
+      "requests_waiting": 0
+    }
+  ],
+  "failed_requests_details": [
+    {
+      "request_id": 79,
+      "error": "Request timeout",
+      "text_length": 69
+    },
+    {
+      "request_id": 72,
+      "error": "Request timeout",
+      "text_length": 175
+    },
+    {
+      "request_id": 9,
+      "error": "Request timeout",
+      "text_length": 1
+    },
+    {
+      "request_id": 98,
+      "error": "Request timeout",
+      "text_length": 47
+    },
+    {
+      "request_id": 36,
+      "error": "Request timeout",
+      "text_length": 261
+    },
+    {
+      "request_id": 69,
+      "error": "Request timeout",
+      "text_length": 166
+    },
+    {
+      "request_id": 67,
+      "error": "Request timeout",
+      "text_length": 271
+    },
+    {
+      "request_id": 65,
+      "error": "Request timeout",
+      "text_length": 138
+    },
+    {
+      "request_id": 63,
+      "error": "Request timeout",
+      "text_length": 345
+    },
+    {
+      "request_id": 62,
+      "error": "Request timeout",
+      "text_length": 89
+    },
+    {
+      "request_id": 61,
+      "error": "Request timeout",
+      "text_length": 225
+    },
+    {
+      "request_id": 60,
+      "error": "Request timeout",
+      "text_length": 199
+    },
+    {
+      "request_id": 59,
+      "error": "Request timeout",
+      "text_length": 129
+    },
+    {
+      "request_id": 3,
+      "error": "Request timeout",
+      "text_length": 261
+    },
+    {
+      "request_id": 58,
+      "error": "Request timeout",
+      "text_length": 172
+    },
+    {
+      "request_id": 4,
+      "error": "Request timeout",
+      "text_length": 60
+    },
+    {
+      "request_id": 57,
+      "error": "Request timeout",
+      "text_length": 27
+    },
+    {
+      "request_id": 2,
+      "error": "Request timeout",
+      "text_length": 206
+    },
+    {
+      "request_id": 56,
+      "error": "Request timeout",
+      "text_length": 137
+    },
+    {
+      "request_id": 1,
+      "error": "Request timeout",
+      "text_length": 299
+    },
+    {
+      "request_id": 55,
+      "error": "Request timeout",
+      "text_length": 118
+    },
+    {
+      "request_id": 53,
+      "error": "Request timeout",
+      "text_length": 168
+    },
+    {
+      "request_id": 51,
+      "error": "Request timeout",
+      "text_length": 77
+    },
+    {
+      "request_id": 50,
+      "error": "Request timeout",
+      "text_length": 138
+    },
+    {
+      "request_id": 48,
+      "error": "Request timeout",
+      "text_length": 184
+    },
+    {
+      "request_id": 47,
+      "error": "Request timeout",
+      "text_length": 245
+    },
+    {
+      "request_id": 46,
+      "error": "Request timeout",
+      "text_length": 132
+    },
+    {
+      "request_id": 45,
+      "error": "Request timeout",
+      "text_length": 165
+    },
+    {
+      "request_id": 44,
+      "error": "Request timeout",
+      "text_length": 104
+    },
+    {
+      "request_id": 43,
+      "error": "Request timeout",
+      "text_length": 193
+    },
+    {
+      "request_id": 42,
+      "error": "Request timeout",
+      "text_length": 235
+    },
+    {
+      "request_id": 41,
+      "error": "Request timeout",
+      "text_length": 65
+    },
+    {
+      "request_id": 40,
+      "error": "Request timeout",
+      "text_length": 4
+    },
+    {
+      "request_id": 39,
+      "error": "Request timeout",
+      "text_length": 337
+    },
+    {
+      "request_id": 35,
+      "error": "Request timeout",
+      "text_length": 298
+    },
+    {
+      "request_id": 34,
+      "error": "Request timeout",
+      "text_length": 56
+    },
+    {
+      "request_id": 32,
+      "error": "Request timeout",
+      "text_length": 94
+    },
+    {
+      "request_id": 31,
+      "error": "Request timeout",
+      "text_length": 22
+    },
+    {
+      "request_id": 30,
+      "error": "Request timeout",
+      "text_length": 41
+    },
+    {
+      "request_id": 29,
+      "error": "Request timeout",
+      "text_length": 26
+    },
+    {
+      "request_id": 28,
+      "error": "Request timeout",
+      "text_length": 149
+    },
+    {
+      "request_id": 99,
+      "error": "Request timeout",
+      "text_length": 38
+    },
+    {
+      "request_id": 14,
+      "error": "Request timeout",
+      "text_length": 94
+    },
+    {
+      "request_id": 26,
+      "error": "Request timeout",
+      "text_length": 202
+    },
+    {
+      "request_id": 97,
+      "error": "Request timeout",
+      "text_length": 15
+    },
+    {
+      "request_id": 96,
+      "error": "Request timeout",
+      "text_length": 64
+    },
+    {
+      "request_id": 24,
+      "error": "Request timeout",
+      "text_length": 91
+    },
+    {
+      "request_id": 95,
+      "error": "Request timeout",
+      "text_length": 45
+    },
+    {
+      "request_id": 23,
+      "error": "Request timeout",
+      "text_length": 326
+    },
+    {
+      "request_id": 94,
+      "error": "Request timeout",
+      "text_length": 81
+    },
+    {
+      "request_id": 22,
+      "error": "Request timeout",
+      "text_length": 60
+    },
+    {
+      "request_id": 93,
+      "error": "Request timeout",
+      "text_length": 127
+    },
+    {
+      "request_id": 92,
+      "error": "Request timeout",
+      "text_length": 171
+    },
+    {
+      "request_id": 20,
+      "error": "Request timeout",
+      "text_length": 206
+    },
+    {
+      "request_id": 91,
+      "error": "Request timeout",
+      "text_length": 136
+    },
+    {
+      "request_id": 19,
+      "error": "Request timeout",
+      "text_length": 299
+    },
+    {
+      "request_id": 90,
+      "error": "Request timeout",
+      "text_length": 179
+    },
+    {
+      "request_id": 18,
+      "error": "Request timeout",
+      "text_length": 140
+    },
+    {
+      "request_id": 80,
+      "error": "Request timeout",
+      "text_length": 171
+    },
+    {
+      "request_id": 16,
+      "error": "Request timeout",
+      "text_length": 56
+    },
+    {
+      "request_id": 87,
+      "error": "Request timeout",
+      "text_length": 222
+    },
+    {
+      "request_id": 15,
+      "error": "Request timeout",
+      "text_length": 338
+    },
+    {
+      "request_id": 86,
+      "error": "Request timeout",
+      "text_length": 212
+    },
+    {
+      "request_id": 85,
+      "error": "Request timeout",
+      "text_length": 203
+    },
+    {
+      "request_id": 13,
+      "error": "Request timeout",
+      "text_length": 22
+    },
+    {
+      "request_id": 84,
+      "error": "Request timeout",
+      "text_length": 135
+    },
+    {
+      "request_id": 12,
+      "error": "Request timeout",
+      "text_length": 41
+    },
+    {
+      "request_id": 83,
+      "error": "Request timeout",
+      "text_length": 50
+    },
+    {
+      "request_id": 11,
+      "error": "Request timeout",
+      "text_length": 26
+    },
+    {
+      "request_id": 82,
+      "error": "Request timeout",
+      "text_length": 176
+    },
+    {
+      "request_id": 10,
+      "error": "Request timeout",
+      "text_length": 149
+    },
+    {
+      "request_id": 81,
+      "error": "Request timeout",
+      "text_length": 80
+    },
+    {
+      "request_id": 75,
+      "error": "Request timeout",
+      "text_length": 101
+    },
+    {
+      "request_id": 8,
+      "error": "Request timeout",
+      "text_length": 202
+    },
+    {
+      "request_id": 27,
+      "error": "Request timeout",
+      "text_length": 1
+    },
+    {
+      "request_id": 7,
+      "error": "Request timeout",
+      "text_length": 473
+    },
+    {
+      "request_id": 78,
+      "error": "Request timeout",
+      "text_length": 229
+    },
+    {
+      "request_id": 6,
+      "error": "Request timeout",
+      "text_length": 91
+    },
+    {
+      "request_id": 77,
+      "error": "Request timeout",
+      "text_length": 173
+    },
+    {
+      "request_id": 71,
+      "error": "Request timeout",
+      "text_length": 125
+    },
+    {
+      "request_id": 74,
+      "error": "Request timeout",
+      "text_length": 94
+    },
+    {
+      "request_id": 73,
+      "error": "Request timeout",
+      "text_length": 141
+    }
+  ]
+}

@@ -1,0 +1,1033 @@
+{
+  "total_requests": 100,
+  "successful_requests": 0,
+  "failed_requests": 100,
+  "success_rate": 0.0,
+  "total_benchmark_time": 301.1925678253174,
+  "avg_request_duration": 0.0,
+  "min_request_duration": 0.0,
+  "max_request_duration": 0.0,
+  "median_request_duration": 0.0,
+  "p95_request_duration": 0.0,
+  "p99_request_duration": 0.0,
+  "requests_per_second": 0.0,
+  "total_audio_bytes": 0,
+  "avg_throughput_mbps": 0.0,
+  "peak_client_cpu_percent": 399.0,
+  "avg_client_cpu_percent": 0.49813581890812253,
+  "peak_client_ram_mb": 400.09765625,
+  "avg_client_ram_mb": 384.38551202563247,
+  "avg_concurrent_requests": 50.0,
+  "max_concurrent_requests": 100,
+  "avg_time_to_first_byte": 0.0,
+  "min_time_to_first_byte": 0.0,
+  "max_time_to_first_byte": 0.0,
+  "p95_time_to_first_byte": 0.0,
+  "p99_time_to_first_byte": 0.0,
+  "error_types": {
+    "Request timeout": 98,
+    "HTTP 500": 2
+  },
+  "request_details": [
+    {
+      "request_id": 0,
+      "duration": 300.1830334663391,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 199,
+      "audio_size_bytes": null,
+      "ttfb": 8.305804967880249
+    },
+    {
+      "request_id": 1,
+      "duration": 300.1682982444763,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 106,
+      "audio_size_bytes": null,
+      "ttfb": 12.99702262878418
+    },
+    {
+      "request_id": 2,
+      "duration": 300.1834309101105,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 134,
+      "audio_size_bytes": null,
+      "ttfb": 17.699272871017456
+    },
+    {
+      "request_id": 3,
+      "duration": 300.1739356517792,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 41,
+      "audio_size_bytes": null,
+      "ttfb": 35.78226828575134
+    },
+    {
+      "request_id": 4,
+      "duration": 300.16837334632874,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 34,
+      "audio_size_bytes": null,
+      "ttfb": 74.33555459976196
+    },
+    {
+      "request_id": 5,
+      "duration": 300.16504764556885,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 88,
+      "audio_size_bytes": null,
+      "ttfb": 35.776525259017944
+    },
+    {
+      "request_id": 6,
+      "duration": 300.1746380329132,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 173,
+      "audio_size_bytes": null,
+      "ttfb": 35.77360963821411
+    },
+    {
+      "request_id": 7,
+      "duration": 300.16898488998413,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 105,
+      "audio_size_bytes": null,
+      "ttfb": 144.4842140674591
+    },
+    {
+      "request_id": 8,
+      "duration": 300.1630141735077,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 45,
+      "audio_size_bytes": null,
+      "ttfb": 22.695677280426025
+    },
+    {
+      "request_id": 9,
+      "duration": 300.15578031539917,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 52,
+      "audio_size_bytes": null,
+      "ttfb": 35.76381587982178
+    },
+    {
+      "request_id": 10,
+      "duration": 300.15044045448303,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 38,
+      "audio_size_bytes": null,
+      "ttfb": 74.31678748130798
+    },
+    {
+      "request_id": 11,
+      "duration": 300.14371848106384,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 63,
+      "audio_size_bytes": null,
+      "ttfb": 22.685717821121216
+    },
+    {
+      "request_id": 12,
+      "duration": 300.1376898288727,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 25,
+      "audio_size_bytes": null,
+      "ttfb": 89.96013236045837
+    },
+    {
+      "request_id": 13,
+      "duration": 300.1375551223755,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 30,
+      "audio_size_bytes": null,
+      "ttfb": 89.95718383789062
+    },
+    {
+      "request_id": 14,
+      "duration": 300.15201592445374,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 39,
+      "audio_size_bytes": null,
+      "ttfb": 144.46323251724243
+    },
+    {
+      "request_id": 15,
+      "duration": 300.14831733703613,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 139,
+      "audio_size_bytes": null,
+      "ttfb": 89.95218014717102
+    },
+    {
+      "request_id": 16,
+      "duration": 300.1443018913269,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 35,
+      "audio_size_bytes": null,
+      "ttfb": 74.30018639564514
+    },
+    {
+      "request_id": 17,
+      "duration": 300.1405117511749,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 59,
+      "audio_size_bytes": null,
+      "ttfb": 74.29778861999512
+    },
+    {
+      "request_id": 18,
+      "duration": 300.1360340118408,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 73,
+      "audio_size_bytes": null,
+      "ttfb": 74.29526019096375
+    },
+    {
+      "request_id": 19,
+      "duration": 300.1323034763336,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 54,
+      "audio_size_bytes": null,
+      "ttfb": 144.4575550556183
+    },
+    {
+      "request_id": 20,
+      "duration": 300.1275475025177,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 64,
+      "audio_size_bytes": null,
+      "ttfb": 144.44761443138123
+    },
+    {
+      "request_id": 21,
+      "duration": 300.1238925457001,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 54,
+      "audio_size_bytes": null,
+      "ttfb": 144.44535088539124
+    },
+    {
+      "request_id": 22,
+      "duration": 300.11910796165466,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 66,
+      "audio_size_bytes": null,
+      "ttfb": 74.2850501537323
+    },
+    {
+      "request_id": 23,
+      "duration": 300.1082410812378,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 91,
+      "audio_size_bytes": null,
+      "ttfb": 233.98080277442932
+    },
+    {
+      "request_id": 24,
+      "duration": 300.11128997802734,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 79,
+      "audio_size_bytes": null,
+      "ttfb": 74.2799801826477
+    },
+    {
+      "request_id": 25,
+      "duration": 300.1075916290283,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 199,
+      "audio_size_bytes": null,
+      "ttfb": 74.2773711681366
+    },
+    {
+      "request_id": 26,
+      "duration": 300.1031129360199,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 106,
+      "audio_size_bytes": null,
+      "ttfb": 144.43940591812134
+    },
+    {
+      "request_id": 27,
+      "duration": 300.09947061538696,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 134,
+      "audio_size_bytes": null,
+      "ttfb": 144.4374485015869
+    },
+    {
+      "request_id": 28,
+      "duration": 300.09583020210266,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 41,
+      "audio_size_bytes": null,
+      "ttfb": 89.91903448104858
+    },
+    {
+      "request_id": 29,
+      "duration": 300.09130477905273,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 34,
+      "audio_size_bytes": null,
+      "ttfb": 74.26723003387451
+    },
+    {
+      "request_id": 30,
+      "duration": 300.1120066642761,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 88,
+      "audio_size_bytes": null,
+      "ttfb": 144.42983651161194
+    },
+    {
+      "request_id": 31,
+      "duration": 300.10900139808655,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 173,
+      "audio_size_bytes": null,
+      "ttfb": 144.42691731452942
+    },
+    {
+      "request_id": 32,
+      "duration": 300.1057734489441,
+      "success": false,
+      "status_code": 0,
+      "error": "Request timeout",
+      "text_length": 105,
+      "audio_size_bytes": null,
+      "ttfb": null
+    },
+    {
+      "request_id": 33,
+      "duration": 300.102872133255,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 45,
+      "audio_size_bytes": null,
+      "ttfb": 144.4222376346588
+    },
+    {
+      "request_id": 34,
+      "duration": 300.0992329120636,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 52,
+      "audio_size_bytes": null,
+      "ttfb": 233.9528467655182
+    },
+    {
+      "request_id": 35,
+      "duration": 300.09628462791443,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 38,
+      "audio_size_bytes": null,
+      "ttfb": 89.90124368667603
+    },
+    {
+      "request_id": 36,
+      "duration": 300.09292435646057,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 63,
+      "audio_size_bytes": null,
+      "ttfb": 144.40714359283447
+    },
+    {
+      "request_id": 37,
+      "duration": 300.09007692337036,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 25,
+      "audio_size_bytes": null,
+      "ttfb": 144.4120090007782
+    },
+    {
+      "request_id": 38,
+      "duration": 300.08592987060547,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 30,
+      "audio_size_bytes": null,
+      "ttfb": 144.40933847427368
+    },
+    {
+      "request_id": 39,
+      "duration": 300.08296179771423,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 39,
+      "audio_size_bytes": null,
+      "ttfb": 144.40670943260193
+    },
+    {
+      "request_id": 40,
+      "duration": 300.07964396476746,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 139,
+      "audio_size_bytes": null,
+      "ttfb": 144.40413165092468
+    },
+    {
+      "request_id": 41,
+      "duration": 300.07677936553955,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 35,
+      "audio_size_bytes": null,
+      "ttfb": 144.401606798172
+    },
+    {
+      "request_id": 42,
+      "duration": 300.07238841056824,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 59,
+      "audio_size_bytes": null,
+      "ttfb": 144.39920163154602
+    },
+    {
+      "request_id": 43,
+      "duration": 300.0695044994354,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 73,
+      "audio_size_bytes": null,
+      "ttfb": 233.93563079833984
+    },
+    {
+      "request_id": 44,
+      "duration": 300.06616473197937,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 54,
+      "audio_size_bytes": null,
+      "ttfb": 233.92753410339355
+    },
+    {
+      "request_id": 45,
+      "duration": 300.06328225135803,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 64,
+      "audio_size_bytes": null,
+      "ttfb": 144.38430047035217
+    },
+    {
+      "request_id": 46,
+      "duration": 300.05885124206543,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 54,
+      "audio_size_bytes": null,
+      "ttfb": 233.92852520942688
+    },
+    {
+      "request_id": 47,
+      "duration": 300.055935382843,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 66,
+      "audio_size_bytes": null,
+      "ttfb": 233.92571830749512
+    },
+    {
+      "request_id": 48,
+      "duration": 300.0443193912506,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 91,
+      "audio_size_bytes": null,
+      "ttfb": 144.38417601585388
+    },
+    {
+      "request_id": 49,
+      "duration": 300.04973006248474,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 79,
+      "audio_size_bytes": null,
+      "ttfb": 144.3813395500183
+    },
+    {
+      "request_id": 50,
+      "duration": 300.04602313041687,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 199,
+      "audio_size_bytes": null,
+      "ttfb": 233.91839623451233
+    },
+    {
+      "request_id": 51,
+      "duration": 300.0431787967682,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 106,
+      "audio_size_bytes": null,
+      "ttfb": 233.9157998561859
+    },
+    {
+      "request_id": 52,
+      "duration": 300.0398259162903,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 134,
+      "audio_size_bytes": null,
+      "ttfb": 284.1738007068634
+    },
+    {
+      "request_id": 53,
+      "duration": 300.0368332862854,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 41,
+      "audio_size_bytes": null,
+      "ttfb": 233.90450239181519
+    },
+    {
+      "request_id": 54,
+      "duration": 300.03280210494995,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 34,
+      "audio_size_bytes": null,
+      "ttfb": 144.36880707740784
+    },
+    {
+      "request_id": 55,
+      "duration": 300.0298867225647,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 88,
+      "audio_size_bytes": null,
+      "ttfb": 284.1657717227936
+    },
+    {
+      "request_id": 56,
+      "duration": 300.02663493156433,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 173,
+      "audio_size_bytes": null,
+      "ttfb": 233.90294647216797
+    },
+    {
+      "request_id": 57,
+      "duration": 300.0237066745758,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 105,
+      "audio_size_bytes": null,
+      "ttfb": 233.89443826675415
+    },
+    {
+      "request_id": 58,
+      "duration": 185.4628782272339,
+      "success": false,
+      "status_code": 500,
+      "error": "HTTP 500: {\"detail\":\"Error generating audio: [Errno 2] No such file or directory: '/tmp/ref_audio_7248.wav'\"}",
+      "text_length": 45,
+      "audio_size_bytes": null,
+      "ttfb": 185.46282768249512
+    },
+    {
+      "request_id": 59,
+      "duration": 300.0175213813782,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 52,
+      "audio_size_bytes": null,
+      "ttfb": 284.15600085258484
+    },
+    {
+      "request_id": 60,
+      "duration": 300.0135405063629,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 38,
+      "audio_size_bytes": null,
+      "ttfb": 233.88708424568176
+    },
+    {
+      "request_id": 61,
+      "duration": 300.0106134414673,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 63,
+      "audio_size_bytes": null,
+      "ttfb": 297.96864914894104
+    },
+    {
+      "request_id": 62,
+      "duration": 300.02246856689453,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 25,
+      "audio_size_bytes": null,
+      "ttfb": 233.88202142715454
+    },
+    {
+      "request_id": 63,
+      "duration": 300.0195107460022,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 30,
+      "audio_size_bytes": null,
+      "ttfb": 233.88552498817444
+    },
+    {
+      "request_id": 64,
+      "duration": 301.0138187408447,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 39,
+      "audio_size_bytes": null,
+      "ttfb": 233.87691736221313
+    },
+    {
+      "request_id": 65,
+      "duration": 301.00882363319397,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 139,
+      "audio_size_bytes": null,
+      "ttfb": 233.87429666519165
+    },
+    {
+      "request_id": 66,
+      "duration": 301.0133442878723,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 35,
+      "audio_size_bytes": null,
+      "ttfb": 233.87162065505981
+    },
+    {
+      "request_id": 67,
+      "duration": 301.0103347301483,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 59,
+      "audio_size_bytes": null,
+      "ttfb": 233.8688988685608
+    },
+    {
+      "request_id": 68,
+      "duration": 301.00790524482727,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 73,
+      "audio_size_bytes": null,
+      "ttfb": 144.33249306678772
+    },
+    {
+      "request_id": 69,
+      "duration": 300.9922866821289,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 54,
+      "audio_size_bytes": null,
+      "ttfb": 233.8692581653595
+    },
+    {
+      "request_id": 70,
+      "duration": 262.3930835723877,
+      "success": false,
+      "status_code": 500,
+      "error": "HTTP 500: {\"detail\":\"Error generating audio: [Errno 2] No such file or directory: '/tmp/ref_audio_5038.wav'\"}",
+      "text_length": 64,
+      "audio_size_bytes": null,
+      "ttfb": 262.39304089546204
+    },
+    {
+      "request_id": 71,
+      "duration": 300.9984254837036,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 54,
+      "audio_size_bytes": null,
+      "ttfb": 233.864590883255
+    },
+    {
+      "request_id": 72,
+      "duration": 300.9837062358856,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 66,
+      "audio_size_bytes": null,
+      "ttfb": 144.32243132591248
+    },
+    {
+      "request_id": 73,
+      "duration": 300.9805326461792,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 91,
+      "audio_size_bytes": null,
+      "ttfb": 233.85317468643188
+    },
+    {
+      "request_id": 74,
+      "duration": 300.98435711860657,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 79,
+      "audio_size_bytes": null,
+      "ttfb": 144.31764340400696
+    },
+    {
+      "request_id": 75,
+      "duration": 300.98121452331543,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 199,
+      "audio_size_bytes": null,
+      "ttfb": 233.84819841384888
+    },
+    {
+      "request_id": 76,
+      "duration": 300.98229932785034,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 106,
+      "audio_size_bytes": null,
+      "ttfb": 233.85191416740417
+    },
+    {
+      "request_id": 77,
+      "duration": 300.98173904418945,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 134,
+      "audio_size_bytes": null,
+      "ttfb": 233.84934091567993
+    },
+    {
+      "request_id": 78,
+      "duration": 300.972532749176,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 41,
+      "audio_size_bytes": null,
+      "ttfb": 233.84072399139404
+    },
+    {
+      "request_id": 79,
+      "duration": 300.98042583465576,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 34,
+      "audio_size_bytes": null,
+      "ttfb": 233.84402418136597
+    },
+    {
+      "request_id": 80,
+      "duration": 300.97162199020386,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 88,
+      "audio_size_bytes": null,
+      "ttfb": 284.1057012081146
+    },
+    {
+      "request_id": 81,
+      "duration": 300.96550250053406,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 173,
+      "audio_size_bytes": null,
+      "ttfb": 284.1032648086548
+    },
+    {
+      "request_id": 82,
+      "duration": 300.9685392379761,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 105,
+      "audio_size_bytes": null,
+      "ttfb": 294.9070007801056
+    },
+    {
+      "request_id": 83,
+      "duration": 300.9619331359863,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 45,
+      "audio_size_bytes": null,
+      "ttfb": 284.097856760025
+    },
+    {
+      "request_id": 84,
+      "duration": 300.9659926891327,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 52,
+      "audio_size_bytes": null,
+      "ttfb": 233.83130550384521
+    },
+    {
+      "request_id": 85,
+      "duration": 300.94969868659973,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 38,
+      "audio_size_bytes": null,
+      "ttfb": 284.08985805511475
+    },
+    {
+      "request_id": 86,
+      "duration": 300.95543336868286,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 63,
+      "audio_size_bytes": null,
+      "ttfb": 284.090678691864
+    },
+    {
+      "request_id": 87,
+      "duration": 300.9462516307831,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 25,
+      "audio_size_bytes": null,
+      "ttfb": 233.82382941246033
+    },
+    {
+      "request_id": 88,
+      "duration": 300.9447069168091,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 30,
+      "audio_size_bytes": null,
+      "ttfb": 233.8212447166443
+    },
+    {
+      "request_id": 89,
+      "duration": 300.9443280696869,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 39,
+      "audio_size_bytes": null,
+      "ttfb": 284.08311438560486
+    },
+    {
+      "request_id": 90,
+      "duration": 300.94130206108093,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 139,
+      "audio_size_bytes": null,
+      "ttfb": 284.0773079395294
+    },
+    {
+      "request_id": 91,
+      "duration": 300.9434549808502,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 35,
+      "audio_size_bytes": null,
+      "ttfb": 294.8858971595764
+    },
+    {
+      "request_id": 92,
+      "duration": 300.94301867485046,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 59,
+      "audio_size_bytes": null,
+      "ttfb": 284.0755774974823
+    },
+    {
+      "request_id": 93,
+      "duration": 300.9291000366211,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 73,
+      "audio_size_bytes": null,
+      "ttfb": 284.06953477859497
+    },
+    {
+      "request_id": 94,
+      "duration": 300.9399743080139,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 54,
+      "audio_size_bytes": null,
+      "ttfb": 284.06697392463684
+    },
+    {
+      "request_id": 95,
+      "duration": 300.92825508117676,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 64,
+      "audio_size_bytes": null,
+      "ttfb": 284.06475830078125
+    },
+    {
+      "request_id": 96,
+      "duration": 300.9252007007599,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 54,
+      "audio_size_bytes": null,
+      "ttfb": 284.06207060813904
+    },
+    {
+      "request_id": 97,
+      "duration": 300.9185471534729,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 66,
+      "audio_size_bytes": null,
+      "ttfb": 294.86948013305664
+    },
+    {
+      "request_id": 98,
+      "duration": 300.9293301105499,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 91,
+      "audio_size_bytes": null,
+      "ttfb": 284.060448884964
+    },
+    {
+      "request_id": 99,
+      "duration": 300.91291427612305,
+      "success": false,
+      "status_code": 200,
+      "error": "Request timeout",
+      "text_length": 79,
+      "audio_size_bytes": null,
+      "ttfb": 294.8657307624817
+    }
+  ]
+}

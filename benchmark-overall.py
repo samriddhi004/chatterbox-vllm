@@ -11,7 +11,7 @@ from dataclasses import dataclass, asdict
 from chatterbox_vllm.tts import ChatterboxTTS
 
 AUDIO_PROMPT_PATH = "docs/audio-sample-sampu.wav"
-TEXT_PATH = "docs/benchmark-text-2.txt"
+TEXT_PATH = "docs/benchmark-text-1.txt"
 MAX_CHUNK_SIZE = 400  # characters
 BATCH_SIZE = 40
 
@@ -316,8 +316,8 @@ if __name__ == "__main__":
     metrics.has_clipping = quality_metrics['has_clipping']
     
     # Save audio
-    ta.save(f"benchmark-sampu-overall.mp3", full_audio, model.sr)
-    print(f"[BENCHMARK] Audio saved to benchmark-sampu-overall.mp3")
+    ta.save(f"benchmark-sampu-overall-01.mp3", full_audio, model.sr)
+    print(f"[BENCHMARK] Audio saved to benchmark-sampu-overall-01.mp3")
     
     # Additional quality warnings
     if quality_metrics['abrupt_cutoff']:
@@ -333,9 +333,9 @@ if __name__ == "__main__":
     
     # Save metrics to JSON
     import json
-    with open("benchmark_metrics.json", "w") as f:
+    with open("benchmark_metrics_01.json", "w") as f:
         json.dump(asdict(metrics), f, indent=2)
-    print("Detailed metrics saved to benchmark_metrics.json")
+    print("Detailed metrics saved to benchmark_metrics-01.json")
     
     # Cleanup
     model.shutdown()
