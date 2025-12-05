@@ -4,8 +4,6 @@ FastAPI Server for ChatterboxTTS with Prometheus Metrics
 Since ChatterboxTTS doesn't have built-in OpenAI server support yet,
 this implements a custom API server with metrics.
 
-Usage:
-    python vllm-serve.py
 
 The server will be available at http://localhost:8000
 Metrics will be available at http://localhost:8000/metrics

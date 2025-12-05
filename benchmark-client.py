@@ -27,7 +27,7 @@ SERVER_URL = "http://localhost:8000"
 METRICS_URL = f"{SERVER_URL}/metrics"
 NUM_REQUESTS = 100
 DOCS_DIR = "docs"
-OUTPUT_FILE = "benchmark_results.json"
+OUTPUT_FILE = "BATCHED_benchmark_results.json"
 
 # TTS parameters
 TTS_PARAMS = {
