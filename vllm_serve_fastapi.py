@@ -56,6 +56,7 @@ model = None
 batch_processor = None
 
 class TTSRequest(BaseModel):
+    """expected input from the user's API call"""
     model: str = "chatterbox-tts"
     input: str
     voice: str  # Base64 encoded audio
@@ -64,9 +65,12 @@ class TTSRequest(BaseModel):
     top_p: Optional[float] = 0.8
     response_format: Optional[str] = "mp3"
 
+
 @dataclass
 class QueuedRequest:
-    """A request waiting in the queue"""
+    """
+    server's internal representation of a user's request waiting in the queue
+    """
     request_id: str
     text: str
     audio_prompt_path: str
@@ -76,8 +80,8 @@ class QueuedRequest:
 
 class BatchProcessor:
     """
-    Continuously processes requests in batches to maximize GPU utilization.
-    This is the core of vLLM's architecture.
+    continuously processes requests in batches to maximize GPU utilization.
+    the core of vLLM's architecture.
     """
     
     def __init__(self, model, max_batch_size: int, batch_timeout: float):
@@ -92,7 +96,7 @@ class BatchProcessor:
         print(f"[BatchProcessor] Initialized with max_batch_size={max_batch_size}, timeout={batch_timeout}s")
     
     async def add_request(self, req: QueuedRequest):
-        """Add a request to the queue"""
+        """add a request to the queue"""
         async with self.lock:
             self.queue.append(req)
             REQUESTS_WAITING.set(len(self.queue))
@@ -145,7 +149,6 @@ class BatchProcessor:
             texts = [req.text for req in batch]
             
             # For simplicity, use the first request's audio prompt and params
-            # In production, you'd handle different audio prompts per request
             audio_prompt_path = batch[0].audio_prompt_path
             params = batch[0].params
             
